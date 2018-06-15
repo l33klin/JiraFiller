@@ -1,0 +1,27 @@
+{
+  "name": "Jira Filler",
+  "version": "1.0",
+  "description": "An Extension to fill jira form when create a new ticket!",
+  "permissions": ["storage", "declarativeContent", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/jira_cutout16.png",
+      "32": "images/jira_cutout32.png",
+      "48": "images/jira_cutout48.png",
+      "128": "images/jira_cutout128.png"
+    }
+  },
+  "icons": {
+    "16": "images/jira_cutout16.png",
+    "32": "images/jira_cutout32.png",
+    "48": "images/jira_cutout48.png",
+    "128": "images/jira_cutout128.png"
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}
